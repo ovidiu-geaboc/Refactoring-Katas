@@ -6,3 +6,9 @@
  * Time: 11:17 AM
  * To change this template use File | Settings | File Templates.
  */
+
+interface TennisGame
+{
+    public function wonPoint($playerName);
+    public function getScore();
+}
