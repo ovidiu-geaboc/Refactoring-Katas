@@ -18,10 +18,11 @@ class TennisGame3 implements TennisGame
     public function getScore()
     {
         $s='';
-        if ($this->p1 < 4 && $this->p2 < 4) {
+        if ($this->p1 < 4 && $this->p2 < 4)
+        {
             $p =  array("Love", "Fifteen", "Thirty", "Forty");
-            $s = $p[$this->p1];
-            return ($this->p1 == $this->p2) ? $s . "-All" : $s . "-" . $p[$this->p2];
+            $s = $p[($this->p1)];
+            return ($this->p1 == $this->p2) ? $s . "-All" : $s . "-" . $p[($this->p2)];
         } else {
             if ($this->p1 == $this->p2)
                 return "Deuce";
