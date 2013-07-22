@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-require_once 'TennisGame.php';
+require_once './TennisGame.php';
 
 class TennisGame3 implements TennisGame
 {
