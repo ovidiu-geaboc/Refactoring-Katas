@@ -4,10 +4,10 @@ require_once './TennisGame.php';
 class TennisGame3 implements TennisGame
 {
 
-    private $p2;
-    private $p1;
-    private $p1N;
-    private $p2N;
+    private $p2 = 0;
+    private $p1 = 0;
+    private $p1N = "";
+    private $p2N = "";
 
     public function TennisGame3($p1N, $p2N)
     {
